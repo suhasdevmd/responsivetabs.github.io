@@ -1,0 +1,48 @@
+<html lang="en-us">
+<head>
+  <title>Responsive Tabs Demo</title>
+  <link rel="stylesheet" href="css/jquery.responsivetab.demo.css">
+</head>
+<body>
+  <div id="main">
+    <h2 class="pagetitle">Responsive Tabs Demo</h2>
+    <div id="selectList">
+      <!-- For Mobile devices -->
+    </div>
+    <div id="wrapper">
+      <!-- For Computer -->
+      <div id="tab-nav-list"> 
+        <ul id="tabs">
+          <!-- Tabs heading -->
+        </ul>
+      </div>
+      <div id="content">
+        <!-- Tab content -->
+        <div>
+          <h2 class="tabname">Home</h2>
+          <p>Tab 1 content</p>
+        </div>
+        <div>
+          <h2 class="tabname">Products</h2>
+          <p>Tab 2 content</p>
+        </div>          
+        <div>
+          <h2 class="tabname">Services</h2>
+          <p>Tab 3 content</p>
+        </div>
+        <div>
+          <h2 class="tabname">Contact</h2>
+          <p>Tab 4 content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <script type="text/javascript" src="js/jquery-2.1.4.js" ></script>
+    <script src="js/jquery.responsivetab.demo.js"></script>  
+    <script>
+    $( "#wrapper" ).createResponsivetabs();
+    </script>
+  </footer>
+</body>
+</html>
